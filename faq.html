@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Perguntas Frequentes - RedSilver</title>
+    <style>
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, padding 0.3s ease;
+    background: #ffffff;
+    padding: 0 20px;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+.faq-question.active + .faq-answer {
+    max-height: 500px;
+    padding: 15px 20px;
+}
+
+.faq-question.active + 
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, padding 0.3s ease;
+    background: #ffffff;
+    padding: 0 20px;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+.faq-question.active + .faq-answer {
+    max-height: 500px;
+    padding: 15px 20px;
+}
+
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #fff;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .faq-container {
+            max-width: 800px;
+            margin: auto;
+        }
+        .faq-item {
+            border-bottom: 1px solid #ccc;
+            margin-bottom: 10px;
+        }
+        
+.faq-question {
+    background: #f0f0f0;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+.faq-question:hover {
+    background: #e0e0e0;
+}
+.faq-question::after {
+    content: '+';
+    float: right;
+    font-size: 20px;
+}
+.faq-question.active::after {
+    content: '-';
+}
+
+        .faq-question::after {
+            content: '+';
+            position: absolute;
+            right: 20px;
+        }
+        .faq-question.active::after {
+            content: '-';
+        }
+        
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, padding 0.3s ease;
+    background: #ffffff;
+    padding: 0 20px;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+.faq-question.active + .faq-answer {
+    max-height: 500px;
+    padding: 15px 20px;
+}
+
+    </style>
+</head>
+<body>
+    <h1>Perguntas mais frequentes sobre as panelas <span style="color:red;">RedSilver</span></h1>
+    <div class="faq-container">
+
+        <div class="faq-item">
+            <div class="faq-question">Quais são os preços?</div>
+            <div class="faq-answer">Os preços variam entre R$99,90 e R$399,90 dependendo do modelo e tamanho.</div>
+        </div>
+    
+        <div class="faq-item">
+            <div class="faq-question">Como comprar?</div>
+            <div class="faq-answer">Basta clicar no botão 'Comprar Agora' em nosso site e seguir para o checkout.</div>
+        </div>
+    
+        <div class="faq-item">
+            <div class="faq-question">Posso montar um kit personalizado?</div>
+            <div class="faq-answer">Sim! Você pode escolher individualmente os produtos e montar seu próprio kit.</div>
+        </div>
+    
+        <div class="faq-item">
+            <div class="faq-question">Quais são as formas de pagamento?</div>
+            <div class="faq-answer">Aceitamos Pix, boleto e todos os cartões de crédito (Visa, MasterCard, Elo, Amex).</div>
+        </div>
+    
+        <div class="faq-item">
+            <div class="faq-question">Qual prazo de entrega?</div>
+            <div class="faq-answer">O prazo varia de 3 a 10 dias úteis, dependendo da sua região.</div>
+        </div>
+    
+        <div class="faq-item">
+            <div class="faq-question">Qual a segurança de que vou receber?</div>
+            <div class="faq-answer">Todas as compras são protegidas por criptografia SSL e garantimos entrega ou seu dinheiro de volta.</div>
+        </div>
+    
+        <div class="faq-item">
+            <div class="faq-question">Qual o revestimento das panelas RedSilver?</div>
+            <div class="faq-answer">Utilizamos antiaderente cerâmico reforçado com titânio, livre de PFOA.</div>
+        </div>
+    
+        <div class="faq-item">
+            <div class="faq-question">Qual a garantia das panelas?</div>
+            <div class="faq-answer">Oferecemos 12 meses de garantia contra defeitos de fabricação.</div>
+        </div>
+    
+        <div class="faq-item">
+            <div class="faq-question">Não precisa mesmo de óleo?</div>
+            <div class="faq-answer">Exato! Com o revestimento especial, você cozinha sem óleo e sem grudar.</div>
+        </div>
+    
+        <div class="faq-item">
+            <div class="faq-question">Mas e depois de muito tempo de uso? Continua sem grudar?</div>
+            <div class="faq-answer">Sim, desde que siga as instruções de uso e evite utensílios metálicos.</div>
+        </div>
+    
+        <div class="faq-item">
+            <div class="faq-question">Posso adicionar mais tampas?</div>
+            <div class="faq-answer">Claro! Temos tampas avulsas disponíveis em nosso catálogo.</div>
+        </div>
+    
+        <div class="faq-item">
+            <div class="faq-question">A RedSilver pode ser usada em qualquer fogão?</div>
+            <div class="faq-answer">Sim, compatível com fogões a gás, elétrico, vitrocerâmico e indução.</div>
+        </div>
+    
+        <div class="faq-item">
+            <div class="faq-question">Como faço para limpar a panela?</div>
+            <div class="faq-answer">Recomendamos esponja macia e sabão neutro. Evite palha de aço.</div>
+        </div>
+    
+        <div class="faq-item">
+            <div class="faq-question">Possui loja física? Tem algum representante na minha cidade?</div>
+            <div class="faq-answer">Atualmente somos 100% online, mas temos entregas para todo o Brasil.</div>
+        </div>
+    
+        <div class="faq-item">
+            <div class="faq-question">Entrega na minha cidade?</div>
+            <div class="faq-answer">Entregamos em todo o território nacional.</div>
+        </div>
+    
+        <div class="faq-item">
+            <div class="faq-question">Quais são os tamanhos das panelas?</div>
+            <div class="faq-answer">Temos opções de 16cm a 30cm de diâmetro.</div>
+        </div>
+    
+        <div class="faq-item">
+            <div class="faq-question">Qual é a espessura das panelas RedSilver?</div>
+            <div class="faq-answer">Nossas panelas têm espessura média de 3mm a 5mm.</div>
+        </div>
+    
+        <div class="faq-item">
+            <div class="faq-question">O cabo esquenta?</div>
+            <div class="faq-answer">Não! Os cabos são em baquelite antitérmico, permanecem frios.</div>
+        </div>
+    
+        <div class="faq-item">
+            <div class="faq-question">É necessário por meus dados nesse site?</div>
+            <div class="faq-answer">Sim, solicitamos apenas os dados essenciais para segurança e entrega.</div>
+        </div>
+    
+    </div>
+    <script>
+        document.querySelectorAll('.faq-question').forEach(item => {
+            item.addEventListener('click', () => {
+                item.classList.toggle('active');
+                const answer = item.nextElementSibling;
+                
+                if (item.classList.contains('active')) {
+                    item.classList.remove('active');
+                } else {
+                    document.querySelectorAll('.faq-question').forEach(i => i.classList.remove('active'));
+                    item.classList.add('active');
+                }
+    
+            });
+        });
+    </script>
+</body>
+</html>
